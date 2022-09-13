@@ -11,7 +11,7 @@ const TOKEN = "bot token"
 
 
 client.on("ready", () => {
-  console.log("Are you ready kids, cause I am if you know what i mean");
+  console.log("Bot ready");
 });
 
 client.on("messageCreate", (message) => {
